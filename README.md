@@ -12,6 +12,10 @@ These include:
 - require oomphinc/composer-installers-extender": "^1.1"
 - adding library and npm-asset installer types
 - including custom paths for commonly used third-party libraries
+- baked in support for DrupalVM
+- custom vm directory for use by DrupalVM
+- Travis CI build tests
+- post-install cmds
 - will inevitably include core patches
   ....
 

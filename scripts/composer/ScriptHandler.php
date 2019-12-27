@@ -58,6 +58,14 @@ class ScriptHandler {
       umask($oldmask);
       $event->getIO()->write("Created a sites/default/files directory with chmod 0777");
     }
+
+    // Create the libraries directory with chmod 0664
+    if (!$fs->exists($drupalRoot . '/libraries')) {
+      $oldmask = umask(0);
+      $fs->mkdir($drupalRoot . '/libraries', 0664);
+      umask($oldmask);
+      $event->getIO()->write("Created a libraries directory with chmod 0664");
+    }
   }
 
   /**
