@@ -12,7 +12,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": ""
+      "url": "https://packages.drupal.org/8"
     }
   ],
   "require": {
@@ -23,6 +23,7 @@
     "drupal/core": "^8.8.0",
     "drupal/core-composer-scaffold": "^8.8.0",
     "drush/drush": "^9.7.1",
+    "oomphinc/composer-installers-extender": "^1.1",
     "vlucas/phpdotenv": "^4.0",
     "webflo/drupal-finder": "^1.0.0",
     "zaporylie/composer-drupal-optimizations": "^1.0"
