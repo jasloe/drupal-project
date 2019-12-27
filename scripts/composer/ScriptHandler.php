@@ -27,7 +27,7 @@ class ScriptHandler {
       'profiles',
       'themes',
     ];
-\
+
     // Required for unit testing
     foreach ($dirs as $dir) {
       if (!$fs->exists($drupalRoot . '/'. $dir)) {
@@ -49,12 +49,6 @@ class ScriptHandler {
       drupal_rewrite_settings($settings, $drupalRoot . '/sites/default/settings.php');
       $fs->chmod($drupalRoot . '/sites/default/settings.php', 0666);
       $event->getIO()->write("Created a sites/default/settings.php file with chmod 0666");
-    }
-
-    if ($fs->exists($drupalRoot . '/sites/default/settings.php')) {
-      $fs->copy($drupalRoot . '/sites/default/settings.php', $drupalRoot . '/sites/default/settings.local.php');
-      $fs->chmod($drupalRoot . '/sites/default/settings.local.php', 0666);
-      $event->getIO()->write("Created a sites/default/settings.local.php file with chmod 0666");
     }
 
     // Create the files directory with chmod 0777
