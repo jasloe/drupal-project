@@ -27,7 +27,7 @@ class ScriptHandler {
       'profiles',
       'themes',
     ];
-
+\
     // Required for unit testing
     foreach ($dirs as $dir) {
       if (!$fs->exists($drupalRoot . '/'. $dir)) {
@@ -51,6 +51,12 @@ class ScriptHandler {
       $event->getIO()->write("Created a sites/default/settings.php file with chmod 0666");
     }
 
+    if ($fs->exists($drupalRoot . '/sites/default/settings.php')) {
+      $fs->copy($drupalRoot . '/sites/default/settings.php', $drupalRoot . '/sites/default/settings.local.php');
+      $fs->chmod($drupalRoot . '/sites/default/settings.local.php', 0666);
+      $event->getIO()->write("Created a sites/default/settings.local.php file with chmod 0666");
+    }
+
     // Create the files directory with chmod 0777
     if (!$fs->exists($drupalRoot . '/sites/default/files')) {
       $oldmask = umask(0);
@@ -59,12 +65,12 @@ class ScriptHandler {
       $event->getIO()->write("Created a sites/default/files directory with chmod 0777");
     }
 
-    // Create the libraries directory with chmod 0664
+    // Create the libraries directory with chmod 0744
     if (!$fs->exists($drupalRoot . '/libraries')) {
       $oldmask = umask(0);
-      $fs->mkdir($drupalRoot . '/libraries', 0664);
+      $fs->mkdir($drupalRoot . '/libraries', 0744);
       umask($oldmask);
-      $event->getIO()->write("Created a libraries directory with chmod 0664");
+      $event->getIO()->write("Created a libraries directory with chmod 0744");
     }
   }
 
