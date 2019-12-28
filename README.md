@@ -15,7 +15,7 @@ These include:
 - baked in support for DrupalVM
 - custom vm directory for use by DrupalVM
 - post-install composer scripts (create library directory, build resources for theme suggestions)
-- Travis CI build tests
+- Travis CI build tests, etc.
 - post-install cmds
 - will inevitably include core patches
   ....
