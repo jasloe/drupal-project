@@ -1,8 +1,8 @@
 # Composer template for Drupal projects
 
-<!-- [![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project) -->
+[![Build Status](https://travis-ci.org/jasloe/drupal-project.svg?branch=8.x)](https://travis-ci.org/jasloe/drupal-project)
 
-This project template provides a starter kit for managing site
+This project template provides a starter kit for managing Drupal site
 dependencies with [Composer](https://getcomposer.org/).
 
 This fork is a modified version of the "official" drupal-composer repository. It includes a handful of conveniences and customizations for use in both development and production.
