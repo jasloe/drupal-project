@@ -13,6 +13,14 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "url": "https://github.com/previousnext/drush_cmi_tools.git",
+            "type": "git"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         }
     ],
     "require": {
