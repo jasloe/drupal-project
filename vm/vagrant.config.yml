@@ -1,0 +1,36 @@
+---
+# Local Vagrant options.
+vagrant_hostname: local.drupal.local
+vagrant_machine_name: local-drupal
+vagrant_ip: 0.0.0.0
+ssh_home: "/var/www/drupal"
+
+# Configure the synced folder.
+vagrant_synced_folders:
+  - local_path: .
+    destination: /var/www/drupal
+    type: nfs
+
+# Undo some of the extra-hardened security settings in config.yml.
+drupal_account_pass: admin
+drupal_db_password: drupal
+mysql_root_password: root
+
+installed_extras:
+  - drush
+
+dashboard_install_dir: /var/www/dashboard
+extra_security_enabled: false
+
+firewall_allowed_tcp_ports:
+  - "22"
+  - "25"
+  - "80"
+  - "81"
+  - "443"
+  - "8025"
+  - "8983"
+firewall_log_dropped_packets: false
+
+php_version: "7.2"
+php_memory_limit: "512M"
