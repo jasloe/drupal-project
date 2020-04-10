@@ -1,12 +1,12 @@
 ---
 # Composer project settings.
+drupal_build_makefile: false
 drupal_build_composer_project: false
-drupal_build_composer: false
-drupal_composer_dependencies: []
+drupal_build_composer: true
+drupal_core_path: "/var/www/drupal/web"
 
 # Drupal install settings.
-drupal_site_name: ""
-drupal_core_path: "/var/www/drupal/web"
+drupal_site_name: "Drupal"
 drupal_install_site: true
 drupal_enable_modules: []
 
@@ -22,7 +22,7 @@ installed_extras:
   - drush
 
 # Other secure defaults.
-dashboard_install_dir: ''
+dashboard_install_dir: ""
 apache_packages_state: installed
 
 # Restrict the firewall to only ports that are required for external services.
