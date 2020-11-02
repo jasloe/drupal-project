@@ -16,7 +16,7 @@ drupal_enable_modules: []
 #    job: "{{ drush_path }} -r {{ drupal_core_path }} core-cron --quiet"
 
 # Other overrides.
-php_version: "7.2"
+php_version: "7.4"
 php_sendmail_path: "/usr/sbin/sendmail -t -i"
 installed_extras:
   - drush
@@ -30,8 +30,3 @@ firewall_allowed_tcp_ports:
   - "80"
   - "443"
 firewall_log_dropped_packets: true
-
-mysql_packages:
-  - mariadb-client
-  - mariadb-server
-  - python-mysqldb
