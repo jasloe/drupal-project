@@ -3,10 +3,11 @@
 drupal_build_makefile: false
 drupal_build_composer_project: false
 drupal_build_composer: true
+drupal_composer_install_dir: "/var/www/drupal"
 drupal_core_path: "/var/www/drupal/web"
 
 # Drupal install settings.
-drupal_site_name: "Drupal"
+drupal_site_name: "DRAM"
 drupal_install_site: true
 drupal_enable_modules: []
 

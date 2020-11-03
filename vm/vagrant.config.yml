@@ -1,7 +1,7 @@
 ---
 # Local Vagrant options.
-vagrant_hostname: local.drupal.local
-vagrant_machine_name: local-drupal
+vagrant_hostname: local.dram.local
+vagrant_machine_name: local-dram
 vagrant_ip: 0.0.0.0
 ssh_home: "/var/www/drupal"
 
