@@ -1,8 +1,8 @@
 ### List of Drupal patches
 
-```
-git apply [patch-name].patch
-```
+<pre>
+git apply -v [patch-name].patch
+</pre>
 
 #### Node type class
 ##### Solves fatal error on save
