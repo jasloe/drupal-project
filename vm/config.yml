@@ -1,6 +1,4 @@
 ---
-ansible_python_interpreter: /usr/local/bin/python3
-
 # Composer project settings.
 drupal_build_composer_project: false
 drupal_build_composer: false
