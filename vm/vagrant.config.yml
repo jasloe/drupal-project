@@ -38,8 +38,10 @@ firewall_allowed_tcp_ports:
   - "80"
   - "81"
   - "443"
+  - "3306"
   - "8025"
   - "8983"
+
 firewall_log_dropped_packets: false
 
-php_memory_limit: "192M"
+php_memory_limit: "512M"

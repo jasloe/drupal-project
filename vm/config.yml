@@ -7,7 +7,7 @@ drupal_composer_dependencies: []
 # Drupal install settings.
 drupal_site_name: "Drupal"
 drupal_core_path: "/var/www/drupal/web"
-drupal_install_site: false
+drupal_install_site: true
 drupal_enable_modules: []
 
 # Other overrides.
