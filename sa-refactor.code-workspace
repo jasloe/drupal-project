@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "web/themes/custom/dram"
+	},
+	{
+		"path": "web/core/themes"
+	}
+],
+  "settings": {}
+}

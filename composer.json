@@ -42,6 +42,7 @@
     "drupal/pathauto": "^1.8",
     "drupal/token": "^1.9",
     "drupal/twig_tweak": "^3.0",
+    "drupal/views_bulk_operations": "^3.10",
     "drush/drush": "^10.3",
     "geerlingguy/drupal-vm": "dev-master",
     "vlucas/phpdotenv": "^5.1",
