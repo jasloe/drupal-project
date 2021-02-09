@@ -1,14 +1,19 @@
 {
   "folders": [
-	{
-		"path": "."
-	},
-	{
-		"path": "web/themes/custom/dram"
-	},
-	{
-		"path": "web/core/themes"
-	}
-],
-  "settings": {}
+    {
+      "path": "."
+    },
+    {
+      "path": "web/themes/custom/dram"
+    },
+    {
+      "path": "web/core/themes"
+    },
+    {
+      "path": "web/themes/custom/stella"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "stella"
+  }
 }
