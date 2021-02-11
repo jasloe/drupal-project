@@ -3,8 +3,8 @@ vagrant_box:
   geerlingguy/ubuntu1804
 
   # Local Vagrant options.
-vagrant_hostname: local.sound-refactor.local
-vagrant_machine_name: local-sound-refactor
+vagrant_hostname: local.dram-web.local
+vagrant_machine_name: local-dram-web
 vagrant_ip: 0.0.0.0
 ssh_home: "/var/www/drupal"
 
