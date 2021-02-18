@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7d921bf8526ca3019e8728925f22ae4a",
+    "content-hash": "ffe71110df5efb57439ab225a1028f97",
     "packages": [
         {
             "name": "ajgl/breakpoint-twig-extension",
@@ -3737,61 +3737,6 @@
                 "source": "https://github.com/egulias/EmailValidator/tree/2.1.22"
             },
             "time": "2020-09-26T15:48:38+00:00"
-        },
-        {
-            "name": "geerlingguy/drupal-vm",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/geerlingguy/drupal-vm.git",
-                "reference": "218b92f3d6e9c79881cffe9e0b7ee82a459627e3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/geerlingguy/drupal-vm/zipball/218b92f3d6e9c79881cffe9e0b7ee82a459627e3",
-                "reference": "218b92f3d6e9c79881cffe9e0b7ee82a459627e3",
-                "shasum": ""
-            },
-            "default-branch": true,
-            "type": "vm",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jeff Geerling",
-                    "homepage": "https://www.jeffgeerling.com"
-                },
-                {
-                    "name": "Oskar Schöldström",
-                    "homepage": "http://oxy.fi"
-                }
-            ],
-            "description": "A VM for local Drupal development, built with Vagrant + Ansible",
-            "homepage": "https://www.drupalvm.com",
-            "keywords": [
-                "drupal",
-                "vagrant",
-                "virtual machine",
-                "vm"
-            ],
-            "support": {
-                "docs": "http://docs.drupalvm.com",
-                "issues": "https://github.com/geerlingguy/drupal-vm/issues",
-                "source": "https://github.com/geerlingguy/drupal-vm"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/geerlingguy",
-                    "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/geerlingguy",
-                    "type": "patreon"
-                }
-            ],
-            "time": "2021-02-02T03:05:58+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -9191,6 +9136,60 @@
             "time": "2020-11-01T09:30:18+00:00"
         },
         {
+            "name": "geerlingguy/drupal-vm",
+            "version": "6.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/geerlingguy/drupal-vm.git",
+                "reference": "e0863ce3b355f995097673997c4bc88ced40629f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/geerlingguy/drupal-vm/zipball/e0863ce3b355f995097673997c4bc88ced40629f",
+                "reference": "e0863ce3b355f995097673997c4bc88ced40629f",
+                "shasum": ""
+            },
+            "type": "vm",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Geerling",
+                    "homepage": "https://www.jeffgeerling.com"
+                },
+                {
+                    "name": "Oskar Schöldström",
+                    "homepage": "http://oxy.fi"
+                }
+            ],
+            "description": "A VM for local Drupal development, built with Vagrant + Ansible",
+            "homepage": "https://www.drupalvm.com",
+            "keywords": [
+                "drupal",
+                "vagrant",
+                "virtual machine",
+                "vm"
+            ],
+            "support": {
+                "docs": "http://docs.drupalvm.com",
+                "issues": "https://github.com/geerlingguy/drupal-vm/issues",
+                "source": "https://github.com/geerlingguy/drupal-vm"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/geerlingguy",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/geerlingguy",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2021-02-14T03:17:36+00:00"
+        },
+        {
             "name": "instaclick/php-webdriver",
             "version": "1.4.7",
             "source": {
@@ -11895,8 +11894,7 @@
     "stability-flags": {
         "drupal/auto_entitylabel": 10,
         "drupal/migrate_run": 10,
-        "drupal/name": 5,
-        "geerlingguy/drupal-vm": 20
+        "drupal/name": 5
     },
     "prefer-stable": true,
     "prefer-lowest": false,

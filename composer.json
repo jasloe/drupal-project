@@ -48,12 +48,12 @@
     "drupal/twig_xdebug": "^1.2",
     "drupal/views_bulk_operations": "^3.10",
     "drush/drush": "^10.3",
-    "geerlingguy/drupal-vm": "dev-master",
     "vlucas/phpdotenv": "^5.1",
     "webflo/drupal-finder": "^1.2"
   },
   "require-dev": {
     "drupal/core-dev": "^9.0",
+    "geerlingguy/drupal-vm": "^6.0",
     "zaporylie/composer-drupal-optimizations": "^1.2"
   },
   "conflict": {
