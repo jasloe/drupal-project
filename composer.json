@@ -29,14 +29,15 @@
     "drupal/adminimal_admin_toolbar": "^1.11",
     "drupal/adminimal_theme": "^1.6",
     "drupal/auto_entitylabel": "^3.0@beta",
-    "drupal/bg_image_formatter": "^1.14",
     "drupal/components": "^2.2",
     "drupal/config_split": "^1.7",
+    "drupal/context": "^4.0-beta5",
     "drupal/core-composer-scaffold": "^9.0",
     "drupal/core-recommended": "^9.0",
+    "drupal/delete_all": "^2.0",
+    "drupal/editor_advanced_link": "^1.8",
     "drupal/field_group": "^3.1",
     "drupal/filefield_paths": "1.0-beta5",
-    "drupal/gesso": "^4.0",
     "drupal/migrate_plus": "^5.1",
     "drupal/migrate_run": "^2.1@beta",
     "drupal/migrate_source_csv": "^3.4",
@@ -45,13 +46,14 @@
     "drupal/optional_end_date": "^1.1",
     "drupal/paragraphs": "^1.12",
     "drupal/pathauto": "^1.8",
+    "drupal/search_api": "^1.19",
     "drupal/token": "^1.9",
     "drupal/twig_field_value": "^2.0",
     "drupal/twig_tweak": "^3.0",
+    "drupal/twig_vardumper": "^3.0",
     "drupal/twig_xdebug": "^1.2",
     "drupal/views_bulk_operations": "^3.10",
     "drush/drush": "^10.3",
-    "vlucas/phpdotenv": "^5.1",
     "webflo/drupal-finder": "^1.2"
   },
   "require-dev": {
@@ -71,9 +73,6 @@
   "autoload": {
     "classmap": [
       "scripts/composer/ScriptHandler.php"
-    ],
-    "files": [
-      "load.environment.php"
     ]
   },
   "scripts": {

@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Listen for XDebug",
+      "type": "php",
+      "request": "launch",
+      "port": 9000,
+      "pathMappings": {
+        "/var/www/drupal": "${workspaceFolder}",
+        "/var/www/drupal/web": "${workspaceFolder}/web"
+      },
+      "xdebugSettings": {
+        "show_hidden": 1
+      }
+    }
+  ]
+}
